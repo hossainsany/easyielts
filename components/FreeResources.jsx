@@ -25,10 +25,10 @@ const FreeResources = () => {
     return (
         <section className='py-24 md:py-36 bg-white'>
             <div className='container mx-auto px-4 xl:px-0'>
-                <h2 className='text-2xl md:text-4xl font-bold mb-6 md:mb-12'>
+                <h2 className='text-2xl lg:text-4xl font-bold mb-6 md:mb-12'>
                     Free Resources to Boost Your IELTS Preparation
                 </h2>
-                <div className='flex flex-col md:flex-row gap-8 justify-between items-center'>
+                <div className='flex flex-col lg:flex-row gap-8 justify-between '>
                     {resourceItem.map((item) => (
                         <ResourceCard
                             key={item.id}
