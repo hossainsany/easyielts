@@ -4,10 +4,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className='pt-36 pb-16 bg-[#d9d9d9]'>
-            <div className='container mx-auto px-4 md:px-0 flex justify-between '>
-                <div className=' w-[40%]'>
-                    <div className='w-[250px]'>
+        <footer className='pt-24 md:pt-36 pb-8 md:pb-16 bg-[#d9d9d9]'>
+            <div className='container mx-auto px-4 xl:px-0 flex flex-col md:flex-row justify-between '>
+                <div className='w-full md:w-[40%] mb-8 md:mb-0'>
+                    <div className='w-[250px] mb-4'>
                         <Image
                             src={'/logo.png'}
                             alt=''
@@ -23,8 +23,8 @@ const Footer = () => {
                         quaerat, iste voluptate.
                     </p>
                 </div>
-                <div className='flex gap-x-20'>
-                    <ul>
+                <div className='flex flex-col md:flex-row gap-x-20'>
+                    <ul className='mb-8 md:mb-0'>
                         <h4 className='text-xl font-bold mb-2'>Important Links</h4>
                         <li>
                             <Link href='' className='hover:text-accent transition-all'>

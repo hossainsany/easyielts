@@ -22,7 +22,7 @@ const MobileNav = ({ links, isMobile, currentUrl }) => {
                 <div className='w-[35px] h-[5px] bg-accent rounded absolute bottom-0 left-0'></div>
             </div>
             <ul
-                className={`absolute w-full h-auto left-0 top-[95px] bg-light-gray py-8 flex flex-col justify-center items-center gap-4 border-t-[1px] border-white ${
+                className={`absolute w-full h-auto left-0 top-[90px] bg-light-gray/[70%] backdrop-blur-md py-8 flex flex-col justify-center items-center gap-4 ${
                     isOpen ? 'flex' : 'hidden'
                 }`}
             >

@@ -35,9 +35,11 @@ const faqItems = [
 
 const Faq = () => {
     return (
-        <section className='py-36 bg-light-gray'>
-            <div className='container mx-auto px-4 md:px-0'>
-                <h2 className='text-4xl font-bold mb-12'>Frequently Asked Questions (FAQ)</h2>
+        <section className='py-24 md:py-36 bg-light-gray'>
+            <div className='container mx-auto px-4 xl:px-0'>
+                <h2 className='text-2xl md:text-4xl font-bold mb-8 md:mb-12'>
+                    Frequently Asked Questions (FAQ)
+                </h2>
                 <div className=''>
                     {faqItems.map((item) => (
                         <FaqItem key={item.id} ques={item.ques} ans={item.ans} />

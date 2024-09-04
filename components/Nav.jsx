@@ -33,7 +33,7 @@ const Nav = () => {
 
     return (
         <section className='bg-light-gray py-8 lg:py-5 relative'>
-            <div className='container mx-auto flex items-center justify-between px-4 lg:px-0'>
+            <div className='container mx-auto flex items-center justify-between px-4 xl:px-0'>
                 <div className='logo'>
                     <Link href='/'>
                         <Image src='/logo.png' alt='' height={0} width={180} />

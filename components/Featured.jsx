@@ -23,10 +23,12 @@ const feturedItems = [
 
 const Featured = () => {
     return (
-        <section className='py-36 bg-light-gray'>
-            <div className='container mx-auto px-4 md:px-0'>
-                <h2 className='text-4xl font-bold mb-12'>Why Choose EasyIELTS</h2>
-                <div className='grid grid-cols-[1fr_2fr] gap-8'>
+        <section className='py-24 md:py-36 bg-light-gray'>
+            <div className='container mx-auto px-4 xl:px-0'>
+                <h2 className='text-2xl md:text-4xl font-bold mb-6 md:mb-12'>
+                    Why Choose EasyIELTS
+                </h2>
+                <div className='grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-8'>
                     {feturedItems.map((item, i) => (
                         <FeatureCard
                             key={item.id}
