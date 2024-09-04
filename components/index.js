@@ -1,1 +1,12 @@
+export { default as Button } from './Button';
 export { default as Nav } from './Nav';
+export { default as DesktopNav } from './DesktopNav';
+export { default as MobileNav } from './MobileNav';
+export { default as Hero } from './Hero';
+export { default as Featured } from './Featured';
+export { default as FeatureCard } from './FeatureCard';
+export { default as FreeResources } from './FreeResources';
+export { default as ResourceCard } from './ResourceCard';
+export { default as Faq } from './Faq';
+export { default as FaqItem } from './FaqItem';
+export { default as Footer } from './Footer';
