@@ -1,4 +1,4 @@
-import { ResourceCard } from '.';
+import { Card } from '.';
 
 const resourceItem = [
     {
@@ -6,18 +6,24 @@ const resourceItem = [
         title: 'Free Practice Tests',
         desc: 'Test your skills with our comprehensive IELTS practice tests. Each test simulates the real exam format, helping you to familiarize yourself with the question types and time constraints. ',
         img: '/featured3.jpg',
+        linkUrl: '/mock-tests/free-tests',
+        linkText: 'Start Practicing',
     },
     {
         id: 2,
         title: 'Guides and Tips',
         desc: 'Test your skills with our comprehensive IELTS practice tests. Each test simulates the real exam format, helping you to familiarize yourself with the question types and time constraints. ',
         img: '/featured2.jpg',
+        linkUrl: '/free-resources',
+        linkText: 'Learn More',
     },
     {
         id: 3,
         title: 'Webinar Recordings',
         desc: 'Test your skills with our comprehensive IELTS practice tests. Each test simulates the real exam format, helping you to familiarize yourself with the question types and time constraints. ',
         img: '/featured1.jpg',
+        linkUrl: '/free-resources',
+        linkText: 'Learn More',
     },
 ];
 
@@ -30,11 +36,13 @@ const FreeResources = () => {
                 </h2>
                 <div className='flex flex-col lg:flex-row gap-8 justify-between '>
                     {resourceItem.map((item) => (
-                        <ResourceCard
+                        <Card
                             key={item.id}
                             title={item.title}
                             desc={item.desc}
                             img={item.img}
+                            linkText={item.linkText}
+                            linkUrl={item.linkUrl}
                         />
                     ))}
                 </div>

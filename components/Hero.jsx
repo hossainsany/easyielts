@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import { Button } from '.';
 
@@ -17,7 +19,7 @@ const Hero = () => {
                         practice to help you succeed. Join our community of achievers and turn your
                         aspirations into reality.
                     </p>
-                    <Button>Enroll Now</Button>
+                    <Button href='/register'>Enroll Now</Button>
                 </div>
                 <div className='flex-1 flex justify-end order-1 lg:order-2'>
                     <div className='w-[350px] h-[350px] md:w-[500px] md:h-[500px] rounded-2xl overflow-hidden'>

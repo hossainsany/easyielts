@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const DestopNav = ({ links, currentUrl }) => {
     return (
-        <ul className='hidden lg:flex justify-start items-center'>
+        <ul className='flex justify-start items-center gap-6'>
             {links.map((link) => (
-                <li key={link.id} className='ml-6'>
+                <li key={link.id}>
                     <Link
                         href={link.url}
                         className={`capitalize font-medium hover:text-accent transition-all ${

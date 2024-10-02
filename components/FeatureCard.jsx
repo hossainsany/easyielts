@@ -9,11 +9,7 @@ const FeatureCard = ({ title, desc, img, isFirst }) => {
                 <h3 className='text-xl font-semibold mb-4'>{title}</h3>
                 <p>{desc}</p>
             </div>
-            <div
-                className={`bg-accent h-full shrink-0 w-full ${
-                    isFirst ? 'md:w-full' : 'md:w-[40%]'
-                } `}
-            >
+            <div className={`h-full shrink-0 w-full ${isFirst ? 'md:w-full' : 'md:w-[40%]'} `}>
                 <Image
                     src={img}
                     alt=''

@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import { Button } from '.';
 
-const ResourceCard = ({ title, desc, img }) => {
+const Card = ({ title, desc, img, linkText, linkUrl, bgAlt = false }) => {
     return (
-        <div className='bg-light-gray p-5 rounded-lg'>
+        <div className={`p-5 rounded-lg ${bgAlt ? 'bg-white' : 'bg-light-gray'}`}>
             <div className='rounded-md overflow-hidden mb-4'>
                 <Image
                     src={img}
@@ -16,10 +16,10 @@ const ResourceCard = ({ title, desc, img }) => {
             <div className=''>
                 <h3 className='text-xl font-semibold mb-4'>{title}</h3>
                 <p className='text-base mb-6'>{desc}</p>
-                <Button>Learn More</Button>
+                <Button href={linkUrl}>{linkText}</Button>
             </div>
         </div>
     );
 };
 
-export default ResourceCard;
+export default Card;

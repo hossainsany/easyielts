@@ -1,4 +1,4 @@
-import { Faq, Featured, Footer, FreeResources, Hero, Nav } from '@/components';
+import { Cta, Faq, Featured, Footer, FreeResources, Hero, Nav } from '@/components';
 
 export default function Home() {
     return (
@@ -7,6 +7,7 @@ export default function Home() {
             <Featured />
             <FreeResources />
             <Faq />
+            <Cta />
         </main>
     );
 }
