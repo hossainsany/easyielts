@@ -35,7 +35,7 @@ const MobileNav = ({ links, isMobile, currentUrl }) => {
                 ></div>
             </div>
             <ul
-                className={`absolute w-full md:w-[30%] h-auto left-0 md:left-[70%] top-[78px] bg-light-gray/[70%] backdrop-blur-md py-8 flex flex-col justify-center items-center md:justify-end md:items-center md:rounded-md gap-4 ${
+                className={`absolute w-full md:w-[30%] h-auto left-0 md:left-[70%] top-[78px] lg:top-[60px] bg-light-gray/[70%] backdrop-blur-md py-8 flex flex-col justify-center items-center md:justify-end md:items-center md:rounded-md gap-4 ${
                     isOpen ? 'flex' : 'hidden'
                 }`}
             >
