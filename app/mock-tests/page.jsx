@@ -2,6 +2,10 @@ import React from 'react';
 import { PageHeader } from '../_components';
 import { Card, Cta, MockTest } from '@/components';
 
+export const metadata = {
+    title: 'Practice Tests',
+};
+
 const content = [
     {
         id: 1,

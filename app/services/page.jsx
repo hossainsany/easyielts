@@ -2,6 +2,10 @@ import React from 'react';
 import { PageHeader } from '../_components';
 import ComingSoon from '@/components/ComingSoon';
 
+export const metadata = {
+    title: 'Services',
+};
+
 const headerContent = {
     id: 1,
     title: 'Services',

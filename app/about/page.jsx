@@ -1,5 +1,9 @@
 import { PageHeader } from '../_components';
 
+export const metadata = {
+    title: 'About Us',
+};
+
 const headerContent = {
     id: 1,
     title: 'About Us',

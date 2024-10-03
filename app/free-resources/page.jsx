@@ -1,6 +1,10 @@
 import ComingSoon from '@/components/ComingSoon';
 import { PageHeader } from '../_components';
 
+export const metadata = {
+    title: 'Free Resources',
+};
+
 const headerContent = {
     id: 1,
     title: 'Free Resources',
